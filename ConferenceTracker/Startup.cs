@@ -53,8 +53,8 @@ namespace ConferenceTracker
         {
             if (!env.IsDevelopment())
             {
-                app.UseHsts();
                 app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
             }
             else
             {
